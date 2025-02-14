@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "category": "Laptops",
+      "slug": "laptops"
+    },
+    {
+      "id": 2,
+      "category": "Smartphones",
+      "slug": "smartphones"
+    },
+    {
+      "id": 3,
+      "category": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 4,
+      "category": "Smartwatch",
+      "slug": "smartwatch"
+    },
+    {
+      "id": 5,
+      "category": "Headphones",
+      "slug": "headphones"
+    },
+    {
+      "id": 6,
+      "category": "Camera",
+      "slug": "camera"
+    },
+    {
+      "id": 7,
+      "category": "Smart TV",
+      "slug": "smart-tv"
+    },
+    {
+      "id": 8,
+      "category": "Gaming Console",
+      "slug": "gaming-console"
+    }
+  ]
+
