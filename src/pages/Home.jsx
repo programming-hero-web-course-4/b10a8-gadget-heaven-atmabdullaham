@@ -9,7 +9,13 @@ const Home = () => {
     <div>
       <div className="relative">
         {/* Hero */}
-        <HomeHero></HomeHero>
+        <HomeHero
+          title={"Upgrade Your Tech Accessorize"}
+          description={
+            "Explore latest gadget for boosting up your productivity.  The productivity comply with latest gadget."
+          }
+          btn_1={"Shop Now"}
+        ></HomeHero>
         {/* Banner */}
         <Banner></Banner>
       </div>

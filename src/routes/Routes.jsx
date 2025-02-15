@@ -7,6 +7,7 @@ import Offer from "../pages/Offer";
 import ProductCards from "../components/ProductCards";
 import Shop from "../pages/Shop";
 import Details from "../pages/Details";
+import DashboardCards from "../components/DashboardCards";
 
 const routes = createBrowserRouter([
   {
@@ -42,6 +43,12 @@ const routes = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
+        children: [
+          {
+            path: "/dashboard/:type",
+            element: <DashboardCards></DashboardCards>,
+          },
+        ],
       },
       {
         path: "/offer",

@@ -10,7 +10,6 @@ import { useEffect, useState } from "react";
 
 const ProductCards = () => {
   const { pathname } = useLocation();
-  console.log(pathname);
   const navigate = useNavigate();
   const data = useLoaderData();
   const { category } = useParams();

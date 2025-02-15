@@ -22,4 +22,4 @@ const addProducts = (product, type) => {
 }
 
 
-export { addProducts }
+export { addProducts, getAllProducts }

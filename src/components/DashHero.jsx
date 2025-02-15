@@ -1,6 +1,6 @@
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
-const HomeHero = ({ title, description, btn_1, btn_2 }) => {
+const DashHero = ({ title, description, btn_1, btn_2 }) => {
   const { pathname } = useLocation();
   return (
     <div
@@ -22,7 +22,12 @@ const HomeHero = ({ title, description, btn_1, btn_2 }) => {
             <h1 className="text-5xl font-bold">{title}</h1>
             <p className="py-6">{description}</p>
             <div>
-              <button className="btn">{btn_1}</button>
+              <NavLink to={`/dashboard/cart`}>
+                <button className="btn">{btn_1}</button>
+              </NavLink>
+              <NavLink to={`/dashboard/wishlist`}>
+                <button className="btn">{btn_2}</button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -31,4 +36,4 @@ const HomeHero = ({ title, description, btn_1, btn_2 }) => {
   );
 };
 
-export default HomeHero;
+export default DashHero;
