@@ -7,7 +7,7 @@
     "slug": "laptops",
     "price": 1499.99,
     "description": "Powerful gaming laptop with AMD Ryzen 9 and RTX 3060.",
-    "Specification": ["14-inch QHD Display", "16GB RAM", "1TB SSD", "RTX 3060"],
+    "specification": ["14-inch QHD Display", "16GB RAM", "1TB SSD", "RTX 3060"],
     "availability": true,
     "rating": 4.7
   },
@@ -19,7 +19,7 @@
     "slug": "smartphones",
     "price": 1199.99,
     "description": "Apple's latest flagship with A17 Bionic chip and Titanium frame.",
-    "Specification": ["6.1-inch OLED", "128GB Storage", "48MP Camera", "5G"],
+    "specification": ["6.1-inch OLED", "128GB Storage", "48MP Camera", "5G"],
     "availability": true,
     "rating": 4.9
   },
@@ -31,7 +31,7 @@
     "slug": "smartwatch",
     "price": 299.99,
     "description": "Smartwatch with advanced health tracking and AMOLED display.",
-    "Specification": ["AMOLED Display", "Heart Rate Sensor", "GPS", "5ATM Water Resistance"],
+    "specification": ["AMOLED Display", "Heart Rate Sensor", "GPS", "5ATM Water Resistance"],
     "availability": true,
     "rating": 4.6
   },
@@ -43,7 +43,7 @@
     "slug": "headphones",
     "price": 399.99,
     "description": "Industry-leading noise-canceling over-ear headphones.",
-    "Specification": ["40mm Drivers", "Active Noise Cancelling", "30-hour Battery Life", "Bluetooth 5.2"],
+    "specification": ["40mm Drivers", "Active Noise Cancelling", "30-hour Battery Life", "Bluetooth 5.2"],
     "availability": true,
     "rating": 4.8
   },
@@ -55,7 +55,7 @@
     "slug": "camera",
     "price": 499.99,
     "description": "Action camera with 5.3K60 video and improved stabilization.",
-    "Specification": ["5.3K Video", "HyperSmooth 5.0", "Waterproof", "10-bit Color"],
+    "specification": ["5.3K Video", "HyperSmooth 5.0", "Waterproof", "10-bit Color"],
     "availability": true,
     "rating": 4.7
   },
@@ -67,7 +67,7 @@
     "slug": "smart-tv",
     "price": 799.99,
     "description": "4K Smart TV with Quantum HDR and Alexa built-in.",
-    "Specification": ["55-inch QLED", "4K UHD", "120Hz Refresh Rate", "Dolby Atmos"],
+    "specification": ["55-inch QLED", "4K UHD", "120Hz Refresh Rate", "Dolby Atmos"],
     "availability": true,
     "rating": 4.6
   },
@@ -79,7 +79,7 @@
     "slug": "accessories",
     "price": 99.99,
     "description": "Ergonomic wireless mouse with MagSpeed scrolling.",
-    "Specification": ["Ultra-Fast Scrolling", "USB-C Charging", "Ergonomic Design", "Bluetooth/Wireless"],
+    "specification": ["Ultra-Fast Scrolling", "USB-C Charging", "Ergonomic Design", "Bluetooth/Wireless"],
     "availability": true,
     "rating": 4.8
   },
@@ -91,7 +91,7 @@
     "slug": "laptops",
     "price": 1199.99,
     "description": "Ultra-thin and powerful laptop with M2 chip.",
-    "Specification": ["13.6-inch Retina Display", "8GB RAM", "256GB SSD", "M2 Chip"],
+    "specification": ["13.6-inch Retina Display", "8GB RAM", "256GB SSD", "M2 Chip"],
     "availability": true,
     "rating": 4.9
   },
@@ -103,7 +103,7 @@
     "slug": "smartphones",
     "price": 799.99,
     "description": "Flagship Android phone with Snapdragon 8 Gen 2.",
-    "Specification": ["6.7-inch AMOLED", "120Hz Refresh Rate", "50MP Camera", "5000mAh Battery"],
+    "specification": ["6.7-inch AMOLED", "120Hz Refresh Rate", "50MP Camera", "5000mAh Battery"],
     "availability": true,
     "rating": 4.7
   },
@@ -115,7 +115,7 @@
     "slug": "headphones",
     "price": 249.99,
     "description": "Apple's latest wireless earbuds with active noise cancellation.",
-    "Specification": ["H2 Chip", "Adaptive Transparency", "Spatial Audio", "MagSafe Charging"],
+    "specification": ["H2 Chip", "Adaptive Transparency", "Spatial Audio", "MagSafe Charging"],
     "availability": true,
     "rating": 4.8
   },
@@ -127,7 +127,7 @@
     "slug": "camera",
     "price": 2499.99,
     "description": "Full-frame mirrorless camera with 33MP sensor.",
-    "Specification": ["33MP Sensor", "4K 60FPS Video", "Fast Autofocus", "5-axis Stabilization"],
+    "specification": ["33MP Sensor", "4K 60FPS Video", "Fast Autofocus", "5-axis Stabilization"],
     "availability": true,
     "rating": 4.9
   },
@@ -139,7 +139,7 @@
     "slug": "smartwatch",
     "price": 799.99,
     "description": "Apple's rugged smartwatch with extra battery life.",
-    "Specification": ["49mm Titanium Case", "Dual-Frequency GPS", "100m Water Resistance", "36-hour Battery"],
+    "specification": ["49mm Titanium Case", "Dual-Frequency GPS", "100m Water Resistance", "36-hour Battery"],
     "availability": true,
     "rating": 4.9
   },
@@ -151,7 +151,7 @@
     "slug": "smart-tv",
     "price": 2999.99,
     "description": "8K Smart TV with Quantum Matrix Technology and AI processing.",
-    "Specification": ["65-inch Neo QLED", "8K UHD", "HDR 10+", "Dolby Atmos"],
+    "specification": ["65-inch Neo QLED", "8K UHD", "HDR 10+", "Dolby Atmos"],
     "availability": false,
     "rating": 4.7
   },
@@ -163,7 +163,7 @@
     "slug": "gaming-console",
     "price": 499.99,
     "description": "Sony's latest gaming console with ultra-fast SSD and ray tracing.",
-    "Specification": ["AMD Ryzen Zen 2", "825GB SSD", "4K 120Hz Gaming", "DualSense Controller"],
+    "specification": ["AMD Ryzen Zen 2", "825GB SSD", "4K 120Hz Gaming", "DualSense Controller"],
     "availability": true,
     "rating": 4.9
   },
@@ -175,7 +175,7 @@
     "slug": "accessories",
     "price": 149.99,
     "description": "Lightweight wireless gaming mouse with Focus Pro sensor.",
-    "Specification": ["Focus Pro 30K Optical Sensor", "63g Ultra-Lightweight", "HyperSpeed Wireless", "90-hour Battery"],
+    "specification": ["Focus Pro 30K Optical Sensor", "63g Ultra-Lightweight", "HyperSpeed Wireless", "90-hour Battery"],
     "availability": true,
     "rating": 4.8
   },
@@ -187,7 +187,7 @@
     "slug": "laptops",
     "price": 1799.99,
     "description": "Premium ultrabook with 4K OLED display and Intel Core i7.",
-    "Specification": ["15.6-inch 4K OLED", "16GB RAM", "512GB SSD", "Intel i7 12th Gen"],
+    "specification": ["15.6-inch 4K OLED", "16GB RAM", "512GB SSD", "Intel i7 12th Gen"],
     "availability": true,
     "rating": 4.8
   },
@@ -199,7 +199,7 @@
     "slug": "smartphones",
     "price": 899.99,
     "description": "Google's flagship phone with Tensor G2 chip and excellent cameras.",
-    "Specification": ["6.7-inch OLED", "120Hz Refresh Rate", "50MP Main Camera", "5000mAh Battery"],
+    "specification": ["6.7-inch OLED", "120Hz Refresh Rate", "50MP Main Camera", "5000mAh Battery"],
     "availability": true,
     "rating": 4.7
   },
@@ -211,7 +211,7 @@
     "slug": "headphones",
     "price": 299.99,
     "description": "Top-tier noise-canceling wireless earbuds.",
-    "Specification": ["CustomTune Sound", "Active Noise Cancelling", "Bluetooth 5.3", "24-hour Battery"],
+    "specification": ["CustomTune Sound", "Active Noise Cancelling", "Bluetooth 5.3", "24-hour Battery"],
     "availability": true,
     "rating": 4.9
   },
@@ -223,7 +223,7 @@
     "slug": "camera",
     "price": 2499.99,
     "description": "Mirrorless camera with 24.2MP sensor and superior autofocus.",
-    "Specification": ["24.2MP Full-Frame Sensor", "4K 60FPS Video", "Dual Pixel Autofocus", "5-axis Stabilization"],
+    "specification": ["24.2MP Full-Frame Sensor", "4K 60FPS Video", "Dual Pixel Autofocus", "5-axis Stabilization"],
     "availability": true,
     "rating": 4.8
   },
@@ -235,7 +235,7 @@
     "slug": "smart-tv",
     "price": 1999.99,
     "description": "OLED 4K TV with Dolby Vision and NVIDIA G-SYNC support.",
-    "Specification": ["65-inch OLED", "4K UHD", "120Hz Refresh Rate", "Dolby Vision & Atmos"],
+    "specification": ["65-inch OLED", "4K UHD", "120Hz Refresh Rate", "Dolby Vision & Atmos"],
     "availability": true,
     "rating": 4.9
   }

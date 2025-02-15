@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ product }) => {
   const {
-    id,
+    product_id,
     product_title,
     product_image,
     category,
@@ -22,7 +22,7 @@ const Card = ({ product }) => {
       <div className="card-body">
         <h2 className="card-title">{product_title}</h2>
         <p>Price: {price}</p>
-        <Link>
+        <Link to={`product/${product_id}`}>
           <div className="card-actions">
             <button className="btn bg-white hover:bg-white rounded-2xl border-2 border-t-purple-300 border-b-purple-700 border-l-purple-200 border-r-purple-500">
               View Details
