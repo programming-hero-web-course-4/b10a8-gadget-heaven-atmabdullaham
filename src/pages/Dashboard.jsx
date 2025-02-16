@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import DashHero from "../components/DashHero";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation, useOutletContext } from "react-router-dom";
 
 const Dashboard = () => {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {}, []);
+  const { productInCart, productInWishlist } = useOutletContext();
+  const pathname = useLocation();
+  console.log(pathname);
   return (
     <>
       <DashHero
@@ -15,7 +16,7 @@ const Dashboard = () => {
         btn_1={"Cart"}
         btn_2={"Wishlist"}
       ></DashHero>
-      <Outlet></Outlet>
+      <Outlet context={{ productInCart, productInWishlist }}></Outlet>
     </>
   );
 };

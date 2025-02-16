@@ -1,4 +1,8 @@
-const DashedCard = ({ product }) => {
+import { useLocation, useOutletContext } from "react-router-dom";
+import { addProducts } from "../utils";
+
+const DashedCard = ({ product, cartItem }) => {
+  const { productInCart, productInWishlist } = useOutletContext();
   const {
     product_id,
     product_title,
@@ -11,6 +15,11 @@ const DashedCard = ({ product }) => {
     available,
     rating,
   } = product || {};
+  const { pathname } = useLocation();
+  const handleCart = (product, type) => {
+    addProducts(product, type);
+  };
+
   return (
     <div className="card lg:card-side bg-base-100 shadow-sm border-2">
       <figure className="bg-gray-200 mx-3 my-3 h-40">
@@ -20,6 +29,18 @@ const DashedCard = ({ product }) => {
         <h2 className="card-title">{product_title}</h2>
         <p>{description}</p>
         <p>Price: {price}</p>
+        <div>
+          <button
+            onClick={() => {
+              handleCart(product, "cart"), productInCart("cart");
+            }}
+            className={`${
+              pathname === "/dashboard/cart" ? " hidden" : "block btn"
+            }`}
+          >
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
   );

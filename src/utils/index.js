@@ -21,5 +21,8 @@ const addProducts = (product, type) => {
  toast.success(`${product.product_title} Successfully added to ${type}`);
 }
 
+const removeAllProduct = (type) => {
+ localStorage.removeItem(type)
+}
 
-export { addProducts, getAllProducts }
+export { addProducts, getAllProducts, removeAllProduct }

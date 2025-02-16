@@ -1,7 +1,7 @@
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useOutletContext, useParams } from "react-router-dom";
 import HomeHero from "../components/HomeHero";
 import { addProducts } from "../utils";
 
@@ -27,6 +27,8 @@ const Details = () => {
     available,
     rating,
   } = product || {};
+  const { productInCart, productInWishlist } = useOutletContext();
+
   const handleWishlist = (product, type) => {
     addProducts(product, type);
   };
@@ -66,7 +68,9 @@ const Details = () => {
                 <h4>Rating:</h4>
                 <div className="flex items-center gap-4">
                   <button
-                    onClick={() => handleCart(product, "cart")}
+                    onClick={() => {
+                      handleCart(product, "cart"), productInCart("cart");
+                    }}
                     className="btn bg-purple-600 text-white rounded-3xl text-base font-semibold"
                   >
                     Add to Cart
@@ -75,7 +79,10 @@ const Details = () => {
                     </span>
                   </button>
                   <button
-                    onClick={() => handleWishlist(product, "wishlist")}
+                    onClick={() => {
+                      handleWishlist(product, "wishlist"),
+                        productInWishlist("wishlist");
+                    }}
                     className="btn border-1 p-2 rounded-full"
                   >
                     <FaRegHeart />
