@@ -62,8 +62,10 @@ const DashboardCards = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center">
-        <div>{type}</div>
+      <div className="flex flex-col md:flex-row justify-between items-center  px-8 py-2">
+        <div>
+          <h3 className="text-xl font-bold capitalize">{type}</h3>
+        </div>
         <div className="flex gap-4 items-center">
           <h3>Total Cost: {cost}</h3>
           <button onClick={() => handleSort()} className="btn">

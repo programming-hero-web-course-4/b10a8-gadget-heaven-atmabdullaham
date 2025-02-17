@@ -15,11 +15,11 @@ const Card = ({ product }) => {
   } = product || {};
 
   return (
-    <div className="card bg-base-100  shadow-sm border-1 border-t-purple-300 border-b-purple-700 border-l-purple-200 border-r-purple-500">
-      <figure className="bg-gray-200 mx-8 mt-8">
-        <img className="h-52" src={product.product_image} alt="Shoes" />
+    <div className="card bg-base-100    border-1 border-t-purple-300 border-b-purple-600 border-l-purple-200 border-r-purple-500">
+      <figure className=" mx-2 mt-2">
+        <img className="h-60" src={product.product_image} alt="Shoes" />
       </figure>
-      <div className="card-body">
+      <div className="card-body flex flex-col justify-center items-center">
         <h2 className="card-title">{product_title}</h2>
         <p>Price: {price}</p>
         <Link to={`product/${product_id}`}>

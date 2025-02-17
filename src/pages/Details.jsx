@@ -41,11 +41,16 @@ const Details = () => {
   };
   return (
     <div className="pb-80">
-      <HomeHero></HomeHero>
+      <HomeHero
+        title={"Upgrade Your Tech Accessorize"}
+        description={
+          "Explore latest gadget for boosting up your productivity.  The productivity comply with latest gadget."
+        }
+      ></HomeHero>
       <div className="card top-64 absolute w-full h-full">
         <div className=" mx-auto rounded-2xl w-7/12  border-2 border-white bg-gray-200/20 backface-visible">
           <div className="w-auto h-11/12  m-3 ">
-            <div className="flex ">
+            <div className="flex  flex-col md:flex-row">
               <div className="bg-gray-200 w-1/2 rounded-l-xl">
                 <img
                   className="object-cover w-full h-full rounded-2xl"

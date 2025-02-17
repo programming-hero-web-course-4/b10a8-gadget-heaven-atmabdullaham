@@ -22,13 +22,35 @@ const DashHero = ({ title, description, btn_1, btn_2 }) => {
             <h1 className="text-5xl font-bold">{title}</h1>
             <p className="py-6">{description}</p>
             <div
-              className={`${pathname === "/dashboard" ? "block" : "hidden"}`}
+              className={`${
+                pathname === "/dashboard" ||
+                pathname === "/dashboard/cart" ||
+                pathname === "/dashboard/wishlist"
+                  ? "block"
+                  : "hidden"
+              }`}
             >
               <NavLink to={`/dashboard/cart`}>
-                <button className="btn">{btn_1}</button>
+                <button
+                  className={`btn px-8 border-2 rounded-3xl mx-2 ${
+                    pathname === "/dashboard/cart" || pathname === "/dashboard"
+                      ? "bg-white hover:bg-white"
+                      : "bg-purple-600 text-white"
+                  }`}
+                >
+                  {btn_1}
+                </button>
               </NavLink>
               <NavLink to={`/dashboard/wishlist`}>
-                <button className="btn">{btn_2}</button>
+                <button
+                  className={`btn px-8 border-2 rounded-3xl mx-2 ${
+                    pathname === "/dashboard/wishlist"
+                      ? "bg-white hover:bg-white"
+                      : "bg-purple-600 text-white"
+                  }`}
+                >
+                  {btn_2}
+                </button>
               </NavLink>
             </div>
           </div>

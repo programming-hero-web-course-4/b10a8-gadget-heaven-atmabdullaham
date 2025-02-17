@@ -28,7 +28,7 @@ const Home = () => {
           Explore Cutting-Edge Gadgets
         </h2>
       </div>
-      <div className="flex ">
+      <div className="flex flex-col md:flex-row">
         <div className="w-1/4 border-2">
           <Categories categories={categories}></Categories>
         </div>
