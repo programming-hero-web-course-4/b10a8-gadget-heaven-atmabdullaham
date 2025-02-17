@@ -38,7 +38,7 @@ const DashboardCards = () => {
   }, [products, cost]);
 
   const handleSort = () => {
-    const sorted = [...products].sort((a, b) => a.price - b.price);
+    const sorted = [...products].sort((a, b) => b.price - a.price);
     setProducts(sorted);
   };
 

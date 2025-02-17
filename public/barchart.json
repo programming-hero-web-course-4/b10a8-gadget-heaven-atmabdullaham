@@ -1,0 +1,7 @@
+[
+  { "category": "Laptops", "units_sold": 120, "revenue": 960000 },
+  { "category": "Smartphones", "units_sold": 250, "revenue": 1250000 },
+  { "category": "Headphones", "units_sold": 180, "revenue": 270000 },
+  { "category": "Camera", "units_sold": 90, "revenue": 450000 },
+  { "category": "Smart TV", "units_sold": 150, "revenue": 900000 }
+]

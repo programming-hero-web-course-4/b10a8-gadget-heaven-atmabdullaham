@@ -1,9 +1,14 @@
 import { useLoaderData } from "react-router-dom";
 import Card from "../components/Card";
 import HomeHero from "../components/HomeHero";
+import { useEffect } from "react";
 
 const Shop = () => {
+  useEffect(() => {
+    document.title = "Shop | Gadget Mart";
+  }, []);
   const data = useLoaderData();
+
   return (
     <div>
       <HomeHero></HomeHero>

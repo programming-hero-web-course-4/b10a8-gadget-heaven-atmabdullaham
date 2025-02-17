@@ -2,9 +2,13 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import HomeHero from "../components/HomeHero";
 import Categories from "../components/Categories";
+import { useEffect } from "react";
 
 const Home = () => {
   const categories = useLoaderData();
+  useEffect(() => {
+    document.title = "Gadget Mart";
+  }, []);
   return (
     <div>
       <div className="relative">

@@ -6,6 +6,9 @@ import HomeHero from "../components/HomeHero";
 import { addProducts } from "../utils";
 
 const Details = () => {
+  useEffect(() => {
+    document.title = "Details | Gadget Mart";
+  }, []);
   const data = useLoaderData();
   const { id } = useParams();
   const [product, setProduct] = useState({});

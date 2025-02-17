@@ -17,28 +17,29 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("../categories.json"),
+        loader: () => fetch("/categories.json"),
         children: [
           {
             path: "/",
             element: <ProductCards></ProductCards>,
-            loader: () => fetch("../products.json"),
+            loader: () => fetch("/public/products.json"),
           },
           {
             path: "/category/:category",
             element: <ProductCards></ProductCards>,
-            loader: () => fetch("../products.json"),
+            loader: () => fetch("/public/products.json"),
           },
         ],
       },
       {
         path: "/shop",
         element: <Shop></Shop>,
-        loader: () => fetch("../products.json"),
+        loader: () => fetch("/public/products.json"),
       },
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
+        loader: () => fetch("/public/barChart.json"),
       },
       {
         path: "/dashboard",
@@ -61,7 +62,17 @@ const routes = createBrowserRouter([
       {
         path: "/product/:id",
         element: <Details></Details>,
-        loader: () => fetch("../products.json"),
+        loader: () => fetch("/public/products.json"),
+      },
+      {
+        path: "/category/:category/:product/:id",
+        element: <Details></Details>,
+        loader: () => fetch("/public/products.json"),
+      },
+      {
+        path: "/shop/product/:id",
+        element: <Details></Details>,
+        loader: () => fetch("/public/products.json"),
       },
     ],
   },
