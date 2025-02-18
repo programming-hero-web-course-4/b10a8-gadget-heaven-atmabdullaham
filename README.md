@@ -1,8 +1,9 @@
 # Gadget Mart
 
-Live Website: https://gadget-mart.netlify.app/
-Reauirement Document: https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf
-React Fundamental Concepts Used
+|| Live Website: https://gadget-mart.netlify.app/ 
+
+|| Reauirement Document: https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf
+
 
 React fundamental concepts Used:
 1. Components
