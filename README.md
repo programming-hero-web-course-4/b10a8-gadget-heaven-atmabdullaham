@@ -1,8 +1,24 @@
-# React + Vite
+# Gadget Mart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Website: https://gadget-mart.netlify.app/
+Reauirement Document: https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf
+React Fundamental Concepts Used
 
-Currently, two official plugins are available:
+React fundamental concepts Used:
+1. Components
+2. Props
+3. State
+4. React Router
+5. Hooks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For handling and managing data, we have used:
+Context API for some case and Local Storage for major task
+
+Key Features: 
+1. Wide Range of GadgetsUsers can browse and purchase from a variety of gadgets, including mobile phones, laptops, and accessories.
+2. Category based product display options
+3. Details about product
+4. User-Friendly DashboardA personalized dashboard where users can track orders and manage wishlists.
+5. From the statistics page the customer or owner can understand about which category are doing well and which category 
+
+
