@@ -38,6 +38,11 @@
       "id": 8,
       "category": "Gaming Console",
       "slug": "gaming-console"
+    },
+    {
+      "id": 9,
+      "category": "Mac Book",
+      "slug": "mac-book"
     }
   ]
 

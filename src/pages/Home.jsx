@@ -23,16 +23,16 @@ const Home = () => {
         {/* Banner */}
         <Banner></Banner>
       </div>
-      <div className="pt-80">
-        <h2 className="text-3xl text-center font-bold">
+      <div className="pt-12 md:pt-80  min-h-[calc(100vh-300px)]">
+        <h2 className="text-2xl md:text-3xl  text-center font-bold">
           Explore Cutting-Edge Gadgets
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row">
-        <div className="w-1/4 border-2">
+      <div className="flex flex-col md:flex-row min-h-screen ">
+        <div className="md:w-1/4 ">
           <Categories categories={categories}></Categories>
         </div>
-        <div className="w-3/4 border-2">
+        <div className="md:w-3/4">
           <Outlet></Outlet>
         </div>
       </div>

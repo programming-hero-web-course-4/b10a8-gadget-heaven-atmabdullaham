@@ -239,8 +239,45 @@
     "specification": ["65-inch OLED", "4K UHD", "120Hz Refresh Rate", "Dolby Vision & Atmos"],
     "availability": true,
     "rating": 4.9
+  },  {
+    "product_id": 21,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/0jhXMwZ8/LG-C2-65-inch-OLED-4-K-Smart-TV.png",
+    "category": "Laptops",
+    "slug": "laptops",
+    "price": 1399.99,
+    "description": "Convertible laptop with a stunning 4K touchscreen and Intel Core i7.",
+    "specification": ["13.3-inch 4K Touch", "16GB RAM", "512GB SSD", "Intel i7 12th Gen"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 22,
+    "product_title": "Lenovo Legion 5 Pro",
+    "product_image": "https://i.ibb.co.com/QvCsnJh9/LG-C2-65-inch-OLED-4-K-Smart-TV-2.png",
+    "category": "Laptops",
+    "slug": "laptops",
+    "price": 1599.99,
+    "description": "High-performance gaming laptop with Ryzen 7 and RTX 3070.",
+    "specification": ["16-inch QHD 165Hz", "16GB RAM", "1TB SSD", "RTX 3070"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 23,
+    "product_title": "Razer Blade 15",
+    "product_image": "https://i.ibb.co.com/mFGjrRqL/LG-C2-65-inch-OLED-4-K-Smart-TV-3.png",
+    "category": "Laptops",
+    "slug": "laptops",
+    "price": 1999.99,
+    "description": "Sleek and powerful gaming laptop with a 240Hz display and RTX 3080.",
+    "specification": ["15.6-inch FHD 240Hz", "16GB RAM", "1TB SSD", "RTX 3080"],
+    "availability": true,
+    "rating": 4.8
   }
 ]
+
+
 
 
 

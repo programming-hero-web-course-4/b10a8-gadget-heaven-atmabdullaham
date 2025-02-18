@@ -22,7 +22,7 @@ const DashedCard = ({ product, cartItem }) => {
 
   return (
     <div className="card lg:card-side bg-base-100 shadow-sm border-2 border-t-purple-300 border-b-purple-600 border-l-purple-200 border-r-purple-500">
-      <figure className=" mx-2 my-1 h-40 border-b-2 md:border-b-0 md:border-r-2 border-purple-200 ">
+      <figure className=" mx-2 my-1 h-40 border-b-2 lg:border-b-0 lg:border-r-2 border-purple-200 ">
         <img className="h-full" src={product.product_image} alt="Shoes" />
       </figure>
       <div className="card-body">

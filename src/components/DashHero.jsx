@@ -17,10 +17,12 @@ const DashHero = ({ title, description, btn_1, btn_2 }) => {
             : "pb-10"
         } shadow-sm`}
       >
-        <div className="hero-content text-center">
+        <div className="hero-content text-center pt-10">
           <div className="max-w-xl">
-            <h1 className="text-5xl font-bold">{title}</h1>
-            <p className="py-6">{description}</p>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold ">
+              {title}
+            </h1>
+            <p className="py-2 md:py-6">{description}</p>
             <div
               className={`${
                 pathname === "/dashboard" ||
